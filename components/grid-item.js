@@ -45,9 +45,9 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
 export const GridItemStyle = () => (
   <Global
     styles={`
-    .grid-item-thumbnail {
+      .grid-item-thumbnail {
         border-radius: 12px;
-    }
+      }
     `}
   />
 );
