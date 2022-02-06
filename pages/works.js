@@ -36,7 +36,7 @@ const Works = () => {
             title="Blogger"
             thumbnail={thumbBlogger}
           >
-            Weather app built with JavaScript.
+            Blogging app built with Rails and Trix
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -5,18 +5,17 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="SystemBuilder">
+  <Layout title="Blogger">
     <Container>
-      <Title>System Builder</Title>
+      <Title>Blogger</Title>
       <P>
-        A tool that makes building computers easier. It allows for you to build
-        your PC with your ideal specification using high quality components.
+          A Blogging website built with Rails and Trix - a rich text editor
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://express-pc-builder.herokuapp.com">
-              https://express-pc-builder.herokuapp.com <ExternalLinkIcon mx="2px" />
+          <Link href="https://still-mountain-36025.herokuapp.com/">
+          https://still-mountain-36025.herokuapp.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -25,12 +24,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>MongoDB, ExpressJS, NextJS, NodeJS</span>
+          <span>Rails, PostgreSQL</span>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/systembuilder_01.png" alt="SystemBuilder" />
-      <WorkImage src="/images/works/systembuilder_02.png" alt="SystemBuilder" />
+    
+      <WorkImage src="/images/works/rails-blog-homepage.png" alt="Blogger" />
+      <WorkImage src="/images/works/rails-blog-article-show-page.png" alt="Blogger" />
+      
     </Container>
   </Layout>
 );
