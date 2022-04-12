@@ -35,10 +35,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/systembuilder": [
+    "/works/blogger": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/systembuilder.js"
+      "static/chunks/pages/works/blogger.js"
+    ],
+    "/works/jollyshow": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/jollyshow.js"
     ]
   },
   "ampFirstPages": []

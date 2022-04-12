@@ -2,9 +2,11 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
+import thumbJollyshow from "../public/images/thumbJollyshow.png";
 import thumbSystembuilder from "../public/images/thumbSystembuilder.png";
 import thumbWeatherly from "../public/images/thumbWeatherly.png";
 import thumbBlogger from "../public/images/thumbBlogger.png"
+
 const Works = () => {
   return (
     <Container>
@@ -12,13 +14,22 @@ const Works = () => {
         Works
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.1}>
+          <WorkGridItem
+            id="jollyshow"
+            title="JollyShow"
+            thumbnail={thumbJollyshow}
+          >
+            A NFT Landing Page.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem
             id="systembuilder"
             title="SystemBuilder"
             thumbnail={thumbSystembuilder}
           >
-            An PC Inventory App for building high-performant computers.
+            A PC Inventory App for building high-performant computers.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -36,7 +47,7 @@ const Works = () => {
             title="Blogger"
             thumbnail={thumbBlogger}
           >
-            Blogging app built with Rails and Trix
+            Blogging app built with Rails and Trix.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
