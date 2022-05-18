@@ -35,15 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/blogger": [
+    "/works/oandahashes": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/blogger.js"
-    ],
-    "/works/jollyshow": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works/jollyshow.js"
+      "static/chunks/pages/works/oandahashes.js"
     ]
   },
   "ampFirstPages": []
