@@ -4,6 +4,7 @@ import { WorkGridItem } from "../components/grid-item";
 
 import thumbJollyshow from "../public/images/thumbJollyshow.png";
 import thumbOandaHashes from "../public/images/thumbOandaHashes.png"
+import thumbInstagramClone from "../public/images/thumbInstagramClone.png"
 import thumbSystembuilder from "../public/images/thumbSystembuilder.png";
 import thumbWeatherly from "../public/images/thumbWeatherly.png";
 import thumbBlogger from "../public/images/thumbBlogger.png"
@@ -31,6 +32,15 @@ const Works = () => {
             thumbnail={thumbOandaHashes}
           >
             A clone of greenhashes crypto mining website
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="instagramclone"
+            title="Instagram Clone"
+            thumbnail={thumbInstagramClone}
+          >
+            A clone of Instagram's login page
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

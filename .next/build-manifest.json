@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/oandahashes": [
+    "/works/instagramclone": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/oandahashes.js"
+      "static/chunks/pages/works/instagramclone.js"
     ]
   },
   "ampFirstPages": []
