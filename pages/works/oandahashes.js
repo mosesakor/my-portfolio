@@ -14,8 +14,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://oandahashes.herokuapp.com/">
-          https://oandahashes.herokuapp.com/ <ExternalLinkIcon mx="2px" />
+          <Link href="http://oandahashes.tk/">
+          https://oandahashes.tk/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
