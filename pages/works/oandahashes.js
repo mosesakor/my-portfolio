@@ -15,7 +15,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="http://oandahashes.tk/">
-          https://oandahashes.tk/ <ExternalLinkIcon mx="2px" />
+          http://oandahashes.tk/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
