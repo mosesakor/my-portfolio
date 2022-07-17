@@ -16,7 +16,10 @@ import Layout from "../components/layouts/article";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import { BioSection, BioYear } from "../components/bio";
-import { IoLogoGithub } from "react-icons/io5";
+import { IoLogoGithub, IoMail } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { }
 
 const Page = () => {
   return (
@@ -100,11 +103,42 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
+            <ListItem>
+              <Link href="mailto:gabrielmosesakor@gmail.com">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  gabrielmosesakor@gmail.com
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="mailto:gabrielmosesakor@gmail.com">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoMailOutline} />}
+                >
+                  gabrielmosesakor@gmail.com
+                </Button>
+              </Link>
+            </ListItem>
+
+          </List>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Contact
+          </Heading>
+          <List>
+
           </List>
         </Section>
       </Container>
     </Layout>
   );
 };
-
 export default Page;
