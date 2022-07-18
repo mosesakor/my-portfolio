@@ -16,10 +16,7 @@ import Layout from "../components/layouts/article";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import { BioSection, BioYear } from "../components/bio";
-import { IoLogoGithub, IoMail } from "react-icons/io5";
-import { IoMailOutline } from "react-icons/io5";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { }
+import { IoLogoGithub, IoMail, IoMailOutline, IoLogoLinkedin, IoDiscSharp} from "react-icons/io5";
 
 const Page = () => {
   return (
@@ -108,35 +105,38 @@ const Page = () => {
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoLinkedin} />}
-                >
-                  gabrielmosesakor@gmail.com
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="mailto:gabrielmosesakor@gmail.com">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
                   leftIcon={<Icon as={IoMailOutline} />}
                 >
                   gabrielmosesakor@gmail.com
                 </Button>
               </Link>
             </ListItem>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/moses-akor-ab7b93146">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  mosesakor
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://mosesakor.hashnode.dev">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoDiscSharp} />}
+                >
+                  mosesakor.hashnode.dev
+                </Button>
+              </Link>
+            </ListItem>
 
           </List>
         </Section>
 
-        <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
-            Contact
-          </Heading>
-          <List>
-
-          </List>
-        </Section>
       </Container>
     </Layout>
   );
